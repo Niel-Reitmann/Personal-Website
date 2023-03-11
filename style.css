@@ -2,38 +2,36 @@ body {
     background-color: #161313;
     font-family: 'Raleway', sans-serif;
     color: white;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
   
   .wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
     width: 930px;
     padding: 30px 15px;
+    background-color: red;
   }
   
   .intro {
     text-align: left;
-    margin-bottom: 20px;
+    background-color: blue;
   }
 
   
   .social-links {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    margin-bottom: 50px;
+    background-color: green;
   }
   
   .social-links a {
     display: inline-block;
-    margin-right: 10px;
     padding: 10px 20px;
     border: 2px solid #000;
     border-radius: 20px;
@@ -48,7 +46,7 @@ body {
     justify-content: space-between;
     align-items: center;
     max-width: 900px;
-    margin-top: 50px;
+    background-color: black;
   }
   
   .project {
@@ -58,43 +56,35 @@ body {
     align-items: center;
     width: 400px;
     height: 200px;
-    margin-bottom: 30px;
     background-color: #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   }
   
   .project:nth-child(even){
-    margin-left: 50px;
   }
   
   .project:nth-child(odd){
-    margin-right: 50px;
   }
   
   .project img {
     width: 180px;
     height: 180px;
-    margin-left: 20px;
   }
   
   .project-details {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-right: 20px;
     flex-grow: 1;
   }
   
   .project h2 {
     font-size: 24px;
-    margin-top: 20px;
-    margin-bottom: 10px;
   }
   
   .project p {
     font-size: 16px;
     line-height: 1.4;
-    margin-bottom: 20px;
   }
   
   .project a {
