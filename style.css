@@ -9,6 +9,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .intro {
@@ -18,14 +21,14 @@ body {
 
 .social-links {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin-bottom: 50px;
 }
 
 .social-links a {
   display: inline-block;
-  margin: 0 10px;
+  margin-right: 10px;
   padding: 10px 20px;
   border: 2px solid #000;
   border-radius: 20px;
@@ -38,7 +41,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .project {
@@ -51,6 +54,14 @@ body {
   padding: 20px;
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project:nth-child(even){
+    margin-left: 0;
+}
+
+.project:nth-child(odd){
+    margin-right: 0;
 }
 
 .project img {
