@@ -56,8 +56,12 @@ body {
     align-items: center;
     width: 400px;
     height: 200px;
-    background-color: #fff;
+    background-color: pink;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .imagediv{
+    background-color: purple;
   }
   
   .project:nth-child(even){
