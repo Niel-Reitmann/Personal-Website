@@ -20,6 +20,9 @@ body {
   .intro {
     text-align: left;
     background-color: blue;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 1.2;
   }
 
   
@@ -45,7 +48,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    max-width: 900px;
+    width: 100%;
     background-color: black;
   }
   
@@ -55,24 +58,19 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 400px;
-    height: 200px;
+    height: 100px;
     background-color: pink;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   }
 
   .imagediv{
     background-color: purple;
-  }
-  
-  .project:nth-child(even){
-  }
-  
-  .project:nth-child(odd){
+    margin: 0px 10px 0px 0;
   }
   
   .project img {
-    width: 180px;
-    height: 180px;
+    width: 65px;
+    height: 65px;
   }
   
   .project-details {
@@ -83,21 +81,26 @@ body {
   }
   
   .project h2 {
-    font-size: 24px;
+    font-size: 16px;
   }
   
   .project p {
-    font-size: 16px;
+    font-size: 8px;
     line-height: 1.4;
   }
   
   .project a {
     display: inline-block;
-    padding: 10px 20px;
     border: 2px solid #000;
     border-radius: 20px;
     text-decoration: none;
     color: #000;
     font-weight: bold;
+  }
+
+  .viewbutton {
+    margin: 0px 0px 0px 17px;
+    padding: 0px 15px;
+    font-size: 14px;
   }
   
