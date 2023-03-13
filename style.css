@@ -26,15 +26,27 @@ body {
 }
 
 .intro h1 {
-  margin: 0px 0px 20px 0px;
+  margin: 0px;
 }
   
 .social-links {
     display: flex;
+    flex-direction: row;
     justify-content: start;
     align-items: center;
     background-color: green;
   
+}
+
+.social-links ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
   
 .social-links a {
