@@ -5,35 +5,39 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-  }
+}
   
-  .wrapper {
+.wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    width: 930px;
+    width: 100%;
     padding: 30px 15px;
     background-color: red;
-  }
+}
   
-  .intro {
+.intro {
     text-align: left;
     background-color: blue;
     font-size: 15px;
     font-weight: 200;
     line-height: 1.2;
-  }
+}
 
+.intro h1 {
+  margin: 0px 0px 20px 0px;
+}
   
-  .social-links {
+.social-links {
     display: flex;
     justify-content: start;
     align-items: center;
     background-color: green;
-  }
   
-  .social-links a {
+}
+  
+.social-links a {
     display: inline-block;
     padding: 10px 20px;
     border: 2px solid #000;
@@ -41,18 +45,19 @@ body {
     text-decoration: none;
     color: #000;
     font-weight: bold;
-  }
+}
   
-  .projects {
+.projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     background-color: black;
-  }
+    margin: 75px 0px 0px;
+}
   
-  .project {
+.project {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -61,46 +66,54 @@ body {
     height: 100px;
     background-color: pink;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  }
+}
 
-  .imagediv{
+.imagediv {
     background-color: purple;
     margin: 0px 10px 0px 0;
-  }
+    flex-shrink: 0;
+    border-radius: 0.9375rem;
+}
   
-  .project img {
+.project img {
     width: 65px;
     height: 65px;
-  }
+}
   
-  .project-details {
+.project-details {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: left;
     flex-grow: 1;
-  }
+}
   
-  .project h2 {
-    font-size: 16px;
-  }
-  
-  .project p {
-    font-size: 8px;
-    line-height: 1.4;
-  }
-  
-  .project a {
+.project a {
     display: inline-block;
     border: 2px solid #000;
     border-radius: 20px;
     text-decoration: none;
     color: #000;
     font-weight: bold;
-  }
+}
 
-  .viewbutton {
+.viewbutton {
     margin: 0px 0px 0px 17px;
     padding: 0px 15px;
     font-size: 14px;
-  }
-  
+}
+
+.project-details p {
+  margin: 0px;
+}
+
+
+.project-details projtitle {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.project-details projdesc {
+  font-size: 14px;
+  font-weight: 400;
+}
